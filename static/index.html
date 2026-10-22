@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Papelaria ponto certo</h1>
+        <nav>
+            <a href="#cadastrar">cadastrar produto</a>
+            <a href="#consultar">consultar produto</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="cadastrar" class="cartao">
+            <form action="/cadastrar" method="post">
+                <label>Nome
+                    <input name="nome">
+                </label>
+                <label>Preco (R$)
+                    <input name="preco">
+                </label>
+                <label>Quantidade
+                    <input name="quantidade">
+                </label>
+                <button class="botao">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
